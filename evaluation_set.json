@@ -1,0 +1,32 @@
+[
+  {
+    "question": "Koji je krajnji rok za podnošenje online prijave na Erasmus natječaj za ljetni semestar 2026./2027.?",
+    "reference_answer": "Krajnji rok za završetak i podnošenje online prijave je zaključno do 11. rujna 2026. u 12:00 sati.",
+    "expected_entities": ["11. rujna 2026", "12:00"],
+    "expected_source": "Trenutni_natjecaj_i_rokovi.txt"
+  },
+  {
+    "question": "Koje kategorije studenata s manje mogućnosti imaju pravo na dodatnu financijsku potporu prema UNIRI natječaju?",
+    "reference_answer": "Studenti nižeg socioekonomskog statusa, izbjeglice, tražitelji azila, migranti, osobe s invaliditetom ili zdravstvenim poteškoćama, s roditeljima niže razine obrazovanja, stariji od 30 godina, studenti s djecom, oni koji studiraju izvan mjesta prebivališta te djeca branitelja.",
+    "expected_entities": ["socioekonomskog", "izbjeglice", "roditelji", "manje mogućnosti"],
+    "expected_source": "FAQ_financijska_potpora.txt"
+  },
+  {
+    "question": "Od koje akademske godine Sveučilište u Rijeci sudjeluje u programu Erasmus i koliko je studenata do sada sudjelovalo?",
+    "reference_answer": "Sveučilište u Rijeci sudjeluje u programu Erasmus od akademske godine 2009./2010., a u njemu je sudjelovalo više od 2800 studenata.",
+    "expected_entities": ["2009./2010.", "2800"],
+    "expected_source": "O_programu_i_povijest.txt"
+  },
+  {
+    "question": "Koji su obvezni dokumenti koje student mora priložiti za uspješnu prijavu na natječaj?",
+    "reference_answer": "Obvezna dokumentacija uključuje Izjavu uz prijavu, Prijepis ocjena svih položenih ispita te presliku osobne iskaznice ili putne isprave.",
+    "expected_entities": ["Izjava uz prijavu", "Prijepis ocjena", "osobne iskaznice"],
+    "expected_source": "Trenutni_natjecaj_i_rokovi.txt"
+  },
+  {
+    "question": "Što pokriva Europska kartica zdravstvenog osiguranja (EKZO) i kako se može zatražiti?",
+    "reference_answer": "EKZO pokriva troškove nužne i hitne zdravstvene skrbi u inozemstvu kod ugovornih liječnika, a može se zatražiti besplatno u poslovnicama HZZO-a ili online preko sustava e-Građani.",
+    "expected_entities": ["hitne", "HZZO", "e-Građani"],
+    "expected_source": "Upute_smjestaj_i_osiguranje.txt"
+  }
+]

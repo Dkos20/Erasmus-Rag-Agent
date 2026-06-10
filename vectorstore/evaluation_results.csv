@@ -1,0 +1,25 @@
+Question,Reference Answer,Chatbot Answer,Semantic Cosine Similarity,Hit Rate @ 3,Key Entity Accuracy,System Score (1-5),System Comments
+Koji je krajnji rok za podnošenje online prijave na Erasmus natječaj za ljetni semestar 2026./2027.?,Krajnji rok za završetak i podnošenje online prijave je zaključno do 11. rujna 2026. u 12:00 sati.,Krajnji rok za završetak i podnošenje online prijave na Erasmus natječaj za ljetni semestar 2026./2027. je zaključno do 11. rujna 2026. u 12:00 sati.,0.851,1.0,1.0,4.7,Izvrstan odgovor. Visoka semantička usklađenost i pokrivenost ključnih entiteta.
+Koje kategorije studenata s manje mogućnosti imaju pravo na dodatnu financijsku potporu prema UNIRI natječaju?,"Studenti nižeg socioekonomskog statusa, izbjeglice, tražitelji azila, migranti, osobe s invaliditetom ili zdravstvenim poteškoćama, s roditeljima niže razine obrazovanja, stariji od 30 godina, studenti s djecom, oni koji studiraju izvan mjesta prebivališta te djeca branitelja.","Prema sadržajima izvoraca, studenti koji pripadaju sljedećim kategorijama imaju pravo na dodatnu financijsku potporu:
+
+✓ Studenti nižeg socioekonomskog statusa  
+✓ Studenti koji imaju status izbjeglice, tražitelja azila ili migranta 
+✓ Studenti s potporom za uključivanje (posebne potrebe) 
+✓ Studenti čiji roditelji imaju nižu razinu obrazovanja 
+✓ Studentice u tehničkom, studenti u humanističkom području 
+✓ Stariji studenti  
+✓ Studenti s djecom 
+✓ Studenti koji studiraju u mjestu izvan mjesta prebivališta 
+✓ Studenti djeca hrvatskih branitelja
+
+Ova su kategorije navjeduane u sadržajima izvoraca ""FAQ_financijska_potpora.txt"" i ""Natjecaj-ERASMUS-studij-ljetni-2026-2027.pdf"".",0.6681,1.0,0.75,4.04,"Dobar odgovor. Pronađen je relevantan kontekst, uz manje razlike u izražavanju."
+Od koje akademske godine Sveučilište u Rijeci sudjeluje u programu Erasmus i koliko je studenata do sada sudjelovalo?,"Sveučilište u Rijeci sudjeluje u programu Erasmus od akademske godine 2009./2010., a u njemu je sudjelovalo više od 2800 studenata.","Prema članku ""O programu i povijesti"" Sveučilište u Rijeci sudjeluje u programu Erasmus od akademskih godine 2009./2010. Kroz petnaest akademskih godina više od 2800 studenata i 1300 članova osoblja Sveučilišta sudjelovalo je u programu.",0.9001,1.0,1.0,4.8,Izvrstan odgovor. Visoka semantička usklađenost i pokrivenost ključnih entiteta.
+Koji su obvezni dokumenti koje student mora priložiti za uspješnu prijavu na natječaj?,"Obvezna dokumentacija uključuje Izjavu uz prijavu, Prijepis ocjena svih položenih ispita te presliku osobne iskaznice ili putne isprave.","Prema dostupnim informacijama, obvezna dokumentacija koju student mora priložiti za uspješnu prijavu na natječaj su:
+
+1. Izjava uz prijavu (ili Izjava uz prijavu na engleskom jeziku - English)
+2. Prijepis ocjena svih položenih ispita na svim razinama visokoškolskog obrazovanja.
+
+Ovi dokumenti su opisani u NATJEČAJNOJ DOKUMENTACIJI (OBVEZNA) te su obvezni za uspješnu prijavu.",0.7617,1.0,0.6667,4.12,"Dobar odgovor. Pronađen je relevantan kontekst, uz manje razlike u izražavanju."
+Što pokriva Europska kartica zdravstvenog osiguranja (EKZO) i kako se može zatražiti?,"EKZO pokriva troškove nužne i hitne zdravstvene skrbi u inozemstvu kod ugovornih liječnika, a može se zatražiti besplatno u poslovnicama HZZO-a ili online preko sustava e-Građani.","Europska kartica zdravstvenog osiguranja (EKZO) pokriva troškove nužne i hitne zdravstvene skrbi (npr. iznenadna bolest, nesreće) kod ugovornih liječnika u inozemstvu, pod istim uvjetima i po istoj cijeni kao i za lokalne osiguranike u toj zemlji.
+
+Kartica se može zatražiti besplatno na zahtjev osiguranika u područnim uredima Hrvatskog zavoda za zdravstveno osiguranje (HZZO) ili se može zatražiti online preko sustava e-Građani.",0.7917,1.0,1.0,4.58,Izvrstan odgovor. Visoka semantička usklađenost i pokrivenost ključnih entiteta.

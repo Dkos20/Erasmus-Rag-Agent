@@ -1,0 +1,44 @@
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    restart: unless-stopped
+
+  litellm:
+    image: ghcr.io/berriai/litellm:main-latest
+    container_name: litellm
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./litellm-config.yaml:/app/config.yaml
+    command: [ "--config", "/app/config.yaml", "--port", "4000" ]
+    depends_on:
+      - ollama
+    restart: unless-stopped
+
+  streamlit-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: streamlit-app
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+      - ./vectorstore:/app/vectorstore
+      - ./app.py:/app/app.py
+      - ./ingest.py:/app/ingest.py
+      - ./evaluate.py:/app/evaluate.py
+      - ./evaluation_set.json:/app/evaluation_set.json
+    environment:
+      - LITELLM_PROXY_URL=http://litellm:4000
+    depends_on:
+      - litellm
+    restart: unless-stopped
+
+volumes:
+  ollama_data:

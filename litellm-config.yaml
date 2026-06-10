@@ -1,0 +1,5 @@
+model_list:
+  - model_name: llama3
+    litellm_params:
+      model: ollama/llama3:8b-instruct-q4_K_M
+      api_base: http://ollama:11434

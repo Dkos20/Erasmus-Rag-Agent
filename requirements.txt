@@ -1,0 +1,13 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.2.1+cpu
+numpy==1.26.4
+transformers==4.44.2
+streamlit
+langchain
+langchain-community
+langchain-huggingface
+faiss-cpu
+pypdf
+sentence-transformers
+openai
+langchain-openai
